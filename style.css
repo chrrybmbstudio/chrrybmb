@@ -1,0 +1,163 @@
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+  
+}
+
+.icon-square {
+  background-color: #F196AD;
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+  
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #FFFFFF, #FFE9EF, #FFFFFF);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn {
+  background-color: #F196AD;
+}
+
+.container {
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.headerbg {
+  background-color: #FFF8FA;
+}
+
+.herobg {
+  background-color: #FFF8FA;
+}
+
+.featurebg {
+  background-color: #FFF8FA;
+}
+
+.circlechrry {
+  padding: auto;
+  margin: 0px 0px 30px 0px;
+}
+
+.card {
+  font-size: 12px;
+  border-color: #FFFFFF;
+}
+
+.portfolio {
+  margin: auto;
+  width: 900px;
+}
+
+.cardtitle {
+  font-size: 16px;
+}
+
+.album {
+  background-color: #FFFFF;
+}
+
+.lead {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.webdesignpage {
+  margin: auto;
+  width: 900px;
+
+}
+
+.igbtn {
+  padding: 6px;
+}
+
+.butters {
+  height: 222px;
+  border-radius: 50%;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* scroll box */
+
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  width: 100%; 
+  border: 0px solid #ddd; 
+} 
+
+th, 
+td { 
+  text-align: left; 
+  padding: 8px; 
+} 
+
+/* width */         
+::-webkit-scrollbar { 
+  width: 10px; 
+} 
+
+/* Track */ 
+::-webkit-scrollbar-track { 
+  background: #FFF8FA; 
+} 
+
+/* Handle */ 
+::-webkit-scrollbar-thumb { 
+  background: #F196AD; 
+} 
+
+/* Handle on hover */ 
+::-webkit-scrollbar-thumb:hover { 
+  background: #F196AD; 
+} 
+
+.scroll { 
+  display: block; 
+  border: 0px solid #F196AD; 
+  padding: 5px; 
+  margin-top: 5px; 
+  width: 100%; 
+  height: 400px; 
+  overflow-y: scroll; 
+} 
