@@ -13,6 +13,15 @@
   
 }
 
+.buttereye {
+  margin: ;
+  padding: ;
+}
+
+.graphics {
+  vertical-align: ;
+}
+
 .gradient-background {
   background: linear-gradient(300deg, #FFFFFF, #FFE9EF, #FFFFFF);
   background-size: 180% 180%;
@@ -32,6 +41,7 @@
 }
 
 .btn {
+  font-size: 12px;
   background-color: #F196AD;
 }
 
@@ -41,11 +51,11 @@
 }
 
 .headerbg {
-  background-color: #FFF8FA;
+  background-color: #FFE3EC;
 }
 
 .herobg {
-  background-color: #FFF8FA;
+  background-color: #FFE3EC;
 }
 
 .featurebg {
@@ -60,11 +70,11 @@
 .card {
   font-size: 12px;
   border-color: #FFFFFF;
+  
 }
 
 .portfolio {
   margin: auto;
-  width: 900px;
 }
 
 .cardtitle {
@@ -82,7 +92,6 @@
 
 .webdesignpage {
   margin: auto;
-  width: 900px;
 
 }
 
@@ -94,6 +103,8 @@
   height: 222px;
   border-radius: 50%;
 }
+
+
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -161,3 +172,34 @@ td {
   height: 400px; 
   overflow-y: scroll; 
 } 
+
+
+
+/* new button 
+
+
+
+display: inline-block;
+outline: 0;
+cursor: pointer;
+border-radius: 6px;
+border: 2px solid #;
+color: #000;
+background: 0 0;
+padding: 8px;
+box-shadow: ;
+font-weight: ;
+font-size: 14px;
+height: 42px;
+:hover{
+
+    color: #F196AD;
+}
+
+*/
+
+
+/* title names */
+
+
+
