@@ -104,6 +104,10 @@
   border-radius: 50%;
 }
 
+.navitron {
+  display: flex;
+  font-size: 13px;
+}
 
 
 .typewriter h1 {
