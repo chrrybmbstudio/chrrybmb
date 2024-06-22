@@ -109,6 +109,16 @@
   font-size: 13px;
 }
 
+.coconut {
+  margin-left: 38rem; 
+  margin-right: 38rem; 
+  width: 100%;  
+  background-color: ; 
+  padding: 1rem; 
+  box-sizing: border-box; 
+  border: 2px solid #000; 
+}
+
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
