@@ -23,9 +23,9 @@
 }
 
 .gradient-background {
-  background: linear-gradient(300deg, #FFFFFF, #FFE9EF, #FFFFFF);
+  background: linear-gradient(300deg, #FFFFFF, #FFE9EF, #FFCCDB);
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 10s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -117,6 +117,17 @@
   padding: 1rem; 
   box-sizing: border-box; 
   border: 2px solid #000; 
+}
+
+.myPdf {
+  width: 100px;
+  height: 800px;
+
+}
+
+.dpdf {
+  display: flex;
+  justify-content: center;
 }
 
 
