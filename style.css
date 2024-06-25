@@ -143,6 +143,15 @@
   justify-content: center;
 }
 
+.smalllinks {
+  font-size: 12px;
+}
+
+.resources {
+  display: flex;
+  justify-content: center;
+}
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
