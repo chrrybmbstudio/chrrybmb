@@ -152,6 +152,12 @@
   justify-content: center;
 }
 
+.footie {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+}
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -161,6 +167,7 @@
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+
 
 /* The typing effect */
 @keyframes typing {
