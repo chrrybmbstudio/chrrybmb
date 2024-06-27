@@ -23,9 +23,9 @@
 }
 
 .gradient-background {
-  background: linear-gradient(300deg, #FFFFFF, #FFE9EF, #FFCCDB);
+  background: linear-gradient(300deg, #FFE6EE, #FFF3F7, #FFBBD2);
   background-size: 180% 180%;
-  animation: gradient-animation 10s ease infinite;
+  animation: gradient-animation 9s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -159,6 +159,7 @@
   font-size: 10px;
 }
 
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -226,6 +227,14 @@ td {
   height: 400px; 
   overflow-y: scroll; 
 } 
+
+.pinkybox {
+  font-size: 12px;
+}
+
+.bodystyle {
+  font-size: 12px;
+}
 
 
 
