@@ -40,10 +40,6 @@
   }
 }
 
-.btn {
-  font-size: 12px;
-  background-color: #F196AD;
-}
 
 .container {
   font-family: 'Courier New', Courier, monospace;
@@ -95,8 +91,10 @@
 
 }
 
-.igbtn {
+.igbtn, .btn {
   padding: 6px;
+  font-size: 12px;
+  background-color: #F196AD;
 }
 
 .butters {
@@ -236,6 +234,15 @@ td {
   font-size: 12px;
 }
 
+#footer {
+  position: sticky;
+  font-size: 12px;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: #000;
+}
 
 
 /* new button 
