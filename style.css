@@ -92,11 +92,16 @@
 }
 
 .igbtn, .btn {
-  padding: 6px;
+  padding: 8px;
   font-size: 12px;
   background-color: #F196AD;
   color: #ECE4EA;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+
 }
+
 
 
 .butters {
@@ -272,6 +277,3 @@ height: 42px;
 
 
 /* title names */
-
-
-
