@@ -252,6 +252,134 @@ td {
 }
 
 
+
+/* Design Elements Pg */
+
+.elebox {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  position: relative;
+  background-color: #F4B3C560;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
+  padding: ;
+  height: 555px;
+  width: auto;
+  border-radius: 70px;
+
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+}
+
+.eleheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.chrrypink {
+  display: inline-flex;
+  gap: 30px;
+  margin-right: 20px;;
+  background-color: #F196AD;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+
+.chrrypink2 {
+  display: inline-flex;
+  gap: 30px;
+  background-color: #ECE4EA;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+
+.courierfacts {
+  font-size: 14px;
+}
+
+.elebutters {
+  width: 444px;
+}
+
+.PrimCol {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+/* Courier Properties */
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.umhello {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+
+
+/* img behind div
+
+#outter {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  }
+  
+  #image {
+  width:fit-content;
+  height: 300px;
+  position: absolute;
+  }
+  
+  #contentOutter {
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+  }
+  
+  #content {
+  margin: 0 auto;
+  width: 900px;
+  }
+
 /* new button 
 
 
