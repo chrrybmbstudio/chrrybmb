@@ -288,8 +288,10 @@ body {
 .chrrypink {
   display: inline-flex;
   gap: 30px;
-  margin-right: 20px;;
+  margin-right: 20px;
+  font-size: 8px;
   background-color: #F196AD;
+  align-items: flex-end;
   width: 60px;
   height: 60px;
   border-radius: 20%;
@@ -298,7 +300,9 @@ body {
 .chrrypink2 {
   display: inline-flex;
   gap: 30px;
+  font-size: 8px;
   background-color: #ECE4EA;
+  align-items: flex-end;
   width: 60px;
   height: 60px;
   border-radius: 20%;
